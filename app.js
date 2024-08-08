@@ -9,7 +9,7 @@ const port = 3005;
 app.use(morgan('combined'))
 
 app.get("/", (req,res) => {
-    res.send("hi weed222");
+    res.send("hi weed test node");
 });
 
 app.listen(port, () => {
